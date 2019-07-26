@@ -21,20 +21,19 @@ theme = "hugo-serif-theme"
     weight = 1
 
 [[menu.main]]
-    name = "Tuyển dụng"
-    url = "/team/"
-    weight = 2
-
-[[menu.main]]
 	name = "Về chúng tôi"
 	url = "/about/"
-	weight = 3
+	weight = 2
 
 [[menu.main]]
     name = "Liên hệ"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
+[[menu.main]]
+    name = "Tuyển dụng"
+    url = "/recruit/"
+    weight = 4
 
 # Footer Menu
 [[menu.footer]]

@@ -26,4 +26,4 @@ Với mong muốn mang lại cho khách hàng sản phẩm giá tốt nhất, C�
 ### Mục tiêu phát triển và tầm nhìn chiến lược:
 Với mong muốn ngày càng được phục vụ nhiều hơn, tốt hơn, chuyên nghiệp hơn, Cơ sở đã chính thức nâng tầm mình lên thành Công ty TNHH Quảng Cáo Đông Nam Á, với quyết tâm giữ vững vị trí dẫn đầu trong ngành quảng cáo, xây dựng môi trường làm việc tốt hơn, để Công ty trở thành **“NGÔI NHÀ CHUNG”** cho tất cả công nhân viên và là doanh nghiệp hàng đầu trong lĩnh vực cung cấp các dịch vụ quảng cáo.
 
-<b>Giám Đốc Công Ty</b>
+**Giám Đốc Công Ty**
