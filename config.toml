@@ -32,7 +32,7 @@ theme = "hugo-serif-theme"
 
 [[menu.main]]
     name = "Tuyển dụng"
-    url = "/recruit/"
+    url = "/recruits/"
     weight = 4
 
 # Footer Menu
