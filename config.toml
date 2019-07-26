@@ -1,51 +1,48 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Serif Theme"
+title = "CÔNG TY TNHH MỘT THÀNH VIÊN QUẢNG CÁO VÀ THƯƠNG MẠI ĐÔNG NAM Á"
 theme = "hugo-serif-theme"
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
-    meta_og_title = "Hugo Serif Theme"
+    meta_description = "Thiết kế, thi công, lắp đặt các loại biển quảng cáo chuyên nghiệp"
+    meta_og_title = "CÔNG TY TNHH MỘT THÀNH VIÊN QUẢNG CÁO VÀ THƯƠNG MẠI ĐÔNG NAM Á"
     meta_og_type = "website"
     meta_og_url = "https://hugo-serif.netlify.com"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
     meta_og_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
 
 # Main Menu
 [[menu.main]]
-	name = "Services"
+	name = "Danh mục"
 	url = "/services/"
     weight = 1
 
 [[menu.main]]
-    name = "Team"
+    name = "Tuyển dụng"
     url = "/team/"
     weight = 2
 
 [[menu.main]]
-	name = "About"
+	name = "Về chúng tôi"
 	url = "/about/"
 	weight = 3
 
 [[menu.main]]
-    name = "Contact"
+    name = "Liên hệ"
     url = "/contact/"
     weight = 4
 
 
 # Footer Menu
 [[menu.footer]]
-	name = "Home"
+	name = "Trang chủ"
 	url = "/"
     weight = 1
 
 [[menu.footer]]
-	name = "Contact"
+	name = "Liên hệ"
 	url = "/contact/"
     weight = 2
