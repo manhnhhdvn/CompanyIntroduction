@@ -1,16 +1,16 @@
 ---
-title: 'Contact'
-date: 2018-02-22T17:01:34+07:00
+title: 'Thông tin liên hệ'
 layout: contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+Ngoại trừ các ngày lễ tết theo quy định của nhà nước, Công ty TNHH một thành viên quảng cáo và thương mại Đông Nam Á mở cửa vào tất cả các ngày trong tuần, cụ thể như sau:
 
-| Day       | Opening Hours   |
+| Ngày       | Giờ   |
 | --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| Thứ hai   | 8:30 Sáng - 5:00 Chiều |
+| Thứ ba    | 8:30 Sáng - 5:00 Chiều |
+| Thứ tư    | 8:30 Sáng - 5:00 Chiều |
+| Thứ năm   | 8:30 Sáng - 5:00 Chiều |
+| Thứ sáu   | 8:30 Sáng - 5:00 Chiều |
+| Thứ bảy   | 8:30 Sáng - 5:00 Chiều |
+| Chủ nhật  | 8:30 Sáng - 5:00 Chiều |
