@@ -10,10 +10,6 @@ title: 'Vị trí thợ quảng cáo:'
 - Có khả năng làm việc độc lập, tự đảm nhiệm công trình, giám sát thi công.  
 - Có ý thức cao trong công việc.
 
-### Quyền lợi:
-- Thưởng % theo công trình.
-- Lương thỏa thuận theo tay nghề
-
 ## 2. Thợ phụ: 5 người
 
 ### Yêu cầu cơ bản:
@@ -28,6 +24,8 @@ title: 'Vị trí thợ quảng cáo:'
 - Nhanh nhẹn, trung thực, nhiệt tình.
 
 ### Quyền lợi chung:
+- Thưởng % theo công trình.
+- Lương thỏa thuận theo tay nghề
 - Hỗ trợ xăng xe đi công trình, điện thoại.
 - Được đào tạo nâng cao tay nghề.
 - Xét duyệt tăng lương 06 tháng/1 lần.

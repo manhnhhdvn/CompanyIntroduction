@@ -13,7 +13,7 @@ title: 'Vị trí nhân viên thiết kế:'
 
 ### Hồ sơ bao gồm:
 - Sơ yếu lý lịch
-- Giây khám sức khỏe
+- Giấy khám sức khỏe
 - Giấy khai sinh (bản sao)
 - Sổ hộ khẩu Photo công chứng
 - Chứng minh thư (bản sao có công chứng)
