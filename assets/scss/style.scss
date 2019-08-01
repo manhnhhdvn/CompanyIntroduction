@@ -1,12 +1,9 @@
-// Font
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700|DM+Serif+Display');
-
 // Bootstrap
 @import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-grid';
 @import 'variables';
 @import 'bootstrap/mixins';
-@import 'bootstrap/utilities';
+@import "bootstrap/utilities/text";
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
@@ -27,25 +24,28 @@
 @import 'components/title';
 @import 'components/content';
 @import 'components/intro';
+@import 'components/intro-image';
 @import 'components/strip';
 @import 'components/whitebox';
 @import 'components/feature';
 
 // Pages
 @import 'pages/home';
-@import 'pages/team/page-team-list';
 @import 'pages/team/team-summary';
-@import 'pages/services/page-services-list';
 @import 'pages/services/page-services-single';
-@import 'pages/services/service-summary';
 
 body {
-  font-size: 17px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.1;
   font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 17px;
+    line-height: 1.2;
+  }
 }
 
 // Display breakpoints for DEV
+{{ if .Site.IsServer }}
 body:after {
   color: #000000;
   font-size: 12px;
@@ -65,3 +65,4 @@ body:after {
     }
   }
 }
+{{ end }}
