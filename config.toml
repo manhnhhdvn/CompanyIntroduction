@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "CÔNG TY TNHH MỘT THÀNH VIÊN QUẢNG CÁO VÀ THƯƠNG MẠI ĐÔNG NAM Á"
-theme = "hugo-serif-theme"
+theme = ""
 
 [params]
   google_analytics_id=""
