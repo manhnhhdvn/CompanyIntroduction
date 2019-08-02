@@ -11,7 +11,7 @@ Trong những năm qua, chúng tôi đã thực hiện nhiều sản phẩm thi�
 ### Năm 1997:
 Là cơ sở Quảng cáo đầu tiên tại Hải Dương, Cơ sở bắt đầu thực hiện những công trình, pano bảng hiệu, hộp đèn có quy mô lớn, nhỏ trong tỉnh. Có trụ sợ tại khuôn viên Trung tâm văn hóa của Thành Phố Hải Dương
 
-### Năm 2008 :
+### Năm 2008:
 Cơ sở được chuyển thành **Công ty TNHH Một Thành Viên Quảng cáo & Thương Mại Đông Nam Á**, có trụ sở đặt tại số 2A - Hoàng Hoa Thám - TP.Hải Dương. Các sản phẩm của **Đông Nam Á** ngày càng đa dạng và phong phú, ngoài các dịch vụ truyền thống như panô, hộp đèn, bảng hiệu, Tổ chức sự kiện, in cờ phướn, backdrop trên chất liệu Hiflex, decal, meka. Công ty còn thi công các công trình Nội, ngoại thất, mặt dựng hợp kim, bảng hiệu Alu, chử nổi. Tất cả những thành quả trên, góp phần mang lại doanh số liên tục tăng trong những năm qua.
 
 ### Khách hàng:
