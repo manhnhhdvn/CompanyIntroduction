@@ -30,6 +30,23 @@
   </div>
 </div>
 
+{{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
+{{if gt (len $services) 0}}
+<div class="container pt-6 pb-md-5">
+  <div class="row justify-content-start">
+    {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
+    {{ range first 6 (sort $services ".Params.weight") }}
+    <div class="col-12 col-md-4 mb-1">
+      {{ .Render "summary" }}
+    </div>
+    {{ end }}
+    <div class="col-12 text-center">
+      <a class="button button-primary" href="{{ .Site.BaseURL }}services">Xem toàn bộ danh mục</a>
+    </div>
+  </div>
+</div>
+{{end}}
+
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-12 pb-md-12">
     <div class="row justify-content-center">
@@ -49,23 +66,6 @@
     </div>
   </div>
 </div>
-
-{{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
-{{if gt (len $services) 0}}
-<div class="container pt-6 pb-md-12">
-  <div class="row justify-content-start">
-    {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
-    {{ range first 6 (sort $services ".Params.weight") }}
-    <div class="col-12 col-md-4 mb-1">
-      {{ .Render "summary" }}
-    </div>
-    {{ end }}
-    <div class="col-12 text-center">
-      <a class="button button-primary" href="{{ .Site.BaseURL }}services">View All Services</a>
-    </div>
-  </div>
-</div>
-{{end}}
 
 {{ end }}
 
