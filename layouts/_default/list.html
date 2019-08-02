@@ -3,6 +3,8 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
+<!-- <script src="https://kit.fontawesome.com/550426123d.js"></script> -->
+
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
@@ -12,6 +14,7 @@
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img class="intro-image-flying" src="{{ .Params.intro_image | relURL }}" />
+        <!-- <i class="fas fa-users"></i> -->
       </div>
       {{ end }}
     </div>
