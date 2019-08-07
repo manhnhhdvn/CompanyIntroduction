@@ -43,24 +43,42 @@ paginate = 6
   URL = "plugins/search/search.js"
   
 
-  
-# navigation
-[menu]
-    
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 3
+# Main Menu
+[[menu.main]]
+	name = "Danh mục"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+	name = "Về chúng tôi"
+	url = "/about/"
+	weight = 2
+
+[[menu.main]]
+    name = "Liên hệ"
+    url = "/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tuyển dụng"
+    url = "/recruits/"
+    weight = 4
+
+# Footer Menu
+[[menu.footer]]
+	name = "Trang chủ"
+	url = "/"
+    weight = 1
+
+[[menu.footer]]
+	name = "Liên hệ"
+	url = "/contact/"
+    weight = 2
 
 
 [params]
 logo = "images/logo.png"
-home = "Home"
+home = "Trang chủ"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
 homeLayoutToggle = true
 # Meta data
