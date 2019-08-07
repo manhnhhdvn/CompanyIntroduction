@@ -12,7 +12,7 @@
         <li class="nav-item">
           <a class="nav-link text-uppercase text-dark" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
-        <!-- {{ $currentPage := . }} -->
+        {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -43,7 +43,7 @@
       {{ if .Site.Params.search.enable }}
       {{ "<!-- search -->" | safeHTML }}
       <form class="form-inline position-relative ml-lg-4" action="{{ .Site.BaseURL }}/search">
-        <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
+        <input class="form-control px-0 w-100" type="search" placeholder="Tìm kiếm" id="search-query" name="s">
         <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
       </form>
       {{ end }}

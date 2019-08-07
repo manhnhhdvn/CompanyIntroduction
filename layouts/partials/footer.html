@@ -2,40 +2,42 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
           <a href="{{.Site.BaseURL}}"><img src="{{.Site.Params.logo | absURL }}" alt="{{.Site.Title}}" class="img-fluid"></a>
         </div>
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Address</h6>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <h6>Địa chỉ</h6>
           <ul class="list-unstyled">
-            {{ range .Site.Params.footer.addresses}}
-            <li class="font-secondary text-dark">{{.address}}</li>
-            {{ end }}
+            <li></li>{{ .Site.Data.contact.businessName }}</li>
+            <li>{{ .Site.Data.contact.address }}</li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Contact Info</h6>
+        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+          <h6>Thông tin liên lạc</h6>
           <ul class="list-unstyled">
-            {{ range .Site.Params.footer.contacts}}
+            <!-- {{ range .Site.Params.footer.contacts}}
             <li class="font-secondary text-dark">{{.contactInfo}}</li>
-            {{ end }}
+            {{ end }} -->
+            <li><strong>Số điện thoại: </strong>{{ .Site.Data.contact.phone }}</li>
+            <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
+                {{ .Site.Data.contact.email }}</a></li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <!-- <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Follow</h6>
           <ul class="list-inline d-inline-block">
             {{ range .Site.Params.social }}
             <li class="list-inline-item"><a href="{{ .URL }}" class="text-dark"><i class="{{.icon}}"></i></a></li>
             {{ end }}
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
-  <div class="text-center pb-3">
+  <!-- <div class="text-center pb-3">
     <p class="mb-0">Copyright ©<script>var CurrentYear = new Date().getFullYear()
     document.write(CurrentYear)</script> {{.Site.Params.copyright | markdownify}}</p>
-  </div>
+  </div> -->
 </footer>
 
 {{ $script:= "script" }}
