@@ -34,7 +34,7 @@ p, .paragraph {
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
   font-family: "Noto Serif";
-  font-weight: 600;
+  font-weight: 100;
   line-height: 1.2;
 }
 
