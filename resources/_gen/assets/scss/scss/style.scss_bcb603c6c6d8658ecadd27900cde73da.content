@@ -4639,6 +4639,13 @@ body {
 .slick-slider {
   margin-bottom: 20px; }
 
+#services-title {
+  text-align: center; }
+
+#services-content p {
+  text-align: center;
+  font-size: 20px; }
+
 body:after {
   color: #000000;
   font-size: 12px;
@@ -4665,44 +4672,5 @@ body:after {
   @media (min-width: 1300px) {
     body:after {
       content: "xl - min-width: 1300px"; } }
-
-.og-grid {
-  list-style: none;
-  padding: 20px 0;
-  margin: 0 auto;
-  width: 100%; }
-
-.og-grid li {
-  display: inline-block;
-  margin: 10px 5px 0 5px;
-  vertical-align: top;
-  height: 250px; }
-
-.og-grid li > a,
-.og-grid li > a img {
-  border: none;
-  outline: none;
-  display: block;
-  position: relative; }
-
-.og-grid li.og-expanded > a::after {
-  top: auto;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-bottom-color: #ddd;
-  border-width: 15px;
-  left: 50%;
-  margin: -20px 0 0 -15px; }
-
-#services-title {
-  text-align: center; }
-
-#services-content {
-  text-align: center;
-  font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
