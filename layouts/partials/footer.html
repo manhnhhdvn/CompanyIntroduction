@@ -68,6 +68,11 @@
 {{ if .Params.isGridView }}
 {{ else }}
 {{ end }}
+
+{{ if .Params.isGridView }}
+{{ partial "scripts.html" . }}
+{{ end }}
+
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
