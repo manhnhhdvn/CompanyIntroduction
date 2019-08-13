@@ -1,7 +1,16 @@
 ---
-title: "Contact"
-date: 2019-05-14T14:46:10+06:00
-description: "This is meta description"
-image: "images/contact.jpg"
+title: 'Thông tin liên hệ'
+layout: contact
 ---
-Strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream and, as I lie close to the earth, a thousand unknown plants are noticed by me.<br><br>When I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains.
+
+Ngoại trừ các ngày lễ tết theo quy định của nhà nước, Công ty TNHH một thành viên quảng cáo và thương mại Đông Nam Á mở cửa vào tất cả các ngày trong tuần, cụ thể như sau:
+
+| Ngày       | Giờ   |
+| --------- | --------------- |
+| Thứ hai   | 8:30 Sáng - 5:00 Chiều |
+| Thứ ba    | 8:30 Sáng - 5:00 Chiều |
+| Thứ tư    | 8:30 Sáng - 5:00 Chiều |
+| Thứ năm   | 8:30 Sáng - 5:00 Chiều |
+| Thứ sáu   | 8:30 Sáng - 5:00 Chiều |
+| Thứ bảy   | 8:30 Sáng - 5:00 Chiều |
+| Chủ nhật  | 8:30 Sáng - 5:00 Chiều |
