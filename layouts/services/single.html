@@ -31,12 +31,16 @@
         <h1 class="title" id="services-title">{{.Title}}</h1>
         <div class="content" id="services-content">{{.Content}}</div>
         <ul id="og-grid" class="og-grid">
-            {{ range $.Site.Data.services.op_hop_kim_nhom.items }}
-            <li>
-              <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
-                <img src="{{.thumb}}" alt="{{.alt}}"/>
-              </a>
-            </li>
+            {{ range $.Site.Data.services }}
+              {{ if eq .description $.Params.image_path }}
+                {{ range .items }}
+                <li>
+                  <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description}}" data-buttontext="{{.buttontext}}">
+                    <img src="{{.thumb}}" alt="{{.alt}}"/>
+                  </a>
+                </li>
+                {{ end }}
+              {{ end }}
             {{ end }}
           </ul>
       </div>

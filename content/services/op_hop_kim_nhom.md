@@ -1,7 +1,7 @@
 ---
 title: "Ốp hợp kim nhôm"
 date: 2018-11-28T15:15:34+10:00
-image: "/services/default.png"
+image_path: op_hop_kim_nhom
 featured: true
 draft: false
 isGridView: true
