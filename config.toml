@@ -1,21 +1,47 @@
-baseURL = "/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "CÔNG TY TNHH MỘT THÀNH VIÊN QUẢNG CÁO VÀ THƯƠNG MẠI ĐÔNG NAM Á"
+title = "Parsa | Personal Blog Template"
 theme = ""
+summaryLength = "10"
+paginate = 6
 
-[params]
-  google_analytics_id=""
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+  page = ["HTML"]
 
-  # Preview container button text
-    buttontext = "Liên hệ ngay"
+# Plugins
+[params.plugins]
 
-  [params.homepage_meta_tags]
-    meta_description = "Thiết kế, thi công, lắp đặt các loại biển quảng cáo chuyên nghiệp"
-    meta_og_title = "CÔNG TY TNHH MỘT THÀNH VIÊN QUẢNG CÁO VÀ THƯƠNG MẠI ĐÔNG NAM Á"
-    meta_og_type = "website"
-    meta_og_url = "https://hugo-serif.netlify.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
-    meta_og_description = "Serif is a beautiful small business theme for Hugo (Static Site Generator). It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated."
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/headroom/headroom.js"
+  [[params.plugins.js]]
+  URL = "plugins/masonry/masonry.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  
 
 # Main Menu
 [[menu.main]]
@@ -48,3 +74,70 @@ theme = ""
 	name = "Liên hệ"
 	url = "/contact/"
     weight = 2
+
+
+[params]
+
+  # Preview container button text
+    buttontext = "Liên hệ ngay"
+
+logo = "images/logo.png"
+home = "Trang chủ"
+# hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
+homeLayoutToggle = true
+# Meta data
+description = "This is meta description"
+# about author
+author = "Themefisher"
+authorImage = "images/banner-img.png"
+shortDescription = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+# Contact Form Action
+contactFormAction = "#"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "a theme by [themefisher.com](themefisher.com)"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  
+  # search
+  [params.search]
+  enable = true
+
+  # footer
+  [params.footer]
+
+    #address
+    [[params.footer.addresses]]
+    address = "Thành phố Hải Dương"
+    
+    [[params.footer.addresses]]
+    address = "6 rip carl Avenue CA 90733"
+
+    
+    #contact information
+    [[params.footer.contacts]]
+    contactInfo = "Tel: +90 000 333 22"
+    
+    [[params.footer.contacts]]
+    contactInfo = "Mail: exmaple@ymail.com"
+
+
+  # social site
+  [[params.social]]
+  icon = "ti-facebook"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-linkedin"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-github"
+  URL = "#"

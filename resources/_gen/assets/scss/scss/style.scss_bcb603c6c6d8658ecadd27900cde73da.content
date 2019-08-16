@@ -4620,13 +4620,6 @@ ol {
   .team-summary .team-content {
     flex: 1 0 100%; }
 
-.page-services-single .content > p:first-of-type {
-  font-size: 1.6rem;
-  line-height: 1.4;
-  margin-bottom: 40px;
-  font-weight: regular;
-  color: #686868; }
-
 body {
   font-size: 16px;
   line-height: 1.1;
@@ -4635,6 +4628,23 @@ body {
     body {
       font-size: 17px;
       line-height: 1.2; } }
+
+.service-title {
+  color: #000000;
+  font-family: "Noto Serif";
+  font-weight: 100;
+  line-height: 1.2;
+  font-size: 30px; }
+
+.slick-slider {
+  margin-bottom: 20px; }
+
+#services-title {
+  text-align: center; }
+
+#services-content p {
+  text-align: center;
+  font-size: 20px; }
 
 body:after {
   color: #000000;
