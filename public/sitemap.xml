@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/search/</loc>
+    <lastmod>2019-05-14T14:46:10+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/bien_led_matrix/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/bang_bien_truyen_thong/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/bang_bien_dien_tu/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/dich_vu_van_phong_cong_ty_to_chuc_su_kien/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/man_hinh_led/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/thiet_ke_thi_cong_noi_ngoai_that/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/thiet_ke_va_in_an/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/op_hop_kim_nhom/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/recruits/</loc>
+  </url>
+  
+  <url>
+    <loc>/recruits/recruit1/</loc>
+  </url>
+  
+  <url>
+    <loc>/recruits/recruit2/</loc>
+  </url>
+  
+</urlset>
