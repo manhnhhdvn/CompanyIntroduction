@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Parsa | Personal Blog Template"
+title = "Công ty TNHH một thành viên quảng cáo và thương mại Đông Nam Á"
 theme = ""
 summaryLength = "10"
 paginate = 6
