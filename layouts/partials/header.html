@@ -9,9 +9,6 @@
     <div class="collapse navbar-collapse text-center" id="navogation">
         <!-- <div id="main-menu" class="main-menu"> -->
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
-        </li>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
@@ -28,7 +25,7 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link text-uppercase text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a class="nav-link text-uppercase {{ if eq $currentPage.RelPermalink .URL }} active {{ end }}" href="{{ .URL | absURL }}">{{ .Name }}</a>
           </li>
           <!-- <li class="nav-link menu-item-{{ .Name | lower }}{{ if eq $currentPage.URL .URL }} active{{ end }}">
               <a href="{{.URL}}">
