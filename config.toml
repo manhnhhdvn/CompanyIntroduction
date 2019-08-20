@@ -45,24 +45,29 @@ paginate = 6
 
 # Main Menu
 [[menu.main]]
+	name = "Trang chủ"
+	url = "/"
+    weight = 1
+
+[[menu.main]]
 	name = "Danh mục"
 	url = "/services/"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
 	name = "Về chúng tôi"
 	url = "/about/"
-	weight = 2
+	weight = 3
 
 [[menu.main]]
     name = "Liên hệ"
     url = "/contact/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "Tuyển dụng"
     url = "/recruits/"
-    weight = 4
+    weight = 5
 
 # Footer Menu
 [[menu.footer]]
@@ -81,7 +86,6 @@ paginate = 6
   # Preview container button text
     buttontext = "Liên hệ ngay"
 
-logo = "images/logo.png"
 home = "Trang chủ"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
 homeLayoutToggle = true
