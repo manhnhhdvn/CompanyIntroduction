@@ -65,6 +65,21 @@ body {
   font-size: 20px;
 }
 
+// Menu
+.navbar-light .navbar-nav .nav-link.active {
+  color: #e87816;
+  font-weight: bold;
+}
+
+// Button
+// .button {
+//   background: #e87816
+// }
+
+// .a {
+//   color: #39913d
+// }
+
 // Display breakpoints for DEV
 // {{ if .Site.IsServer }}
 // body:after {
