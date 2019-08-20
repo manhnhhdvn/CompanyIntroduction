@@ -86,7 +86,6 @@ paginate = 6
   # Preview container button text
     buttontext = "Liên hệ ngay"
 
-logo = "images/logo.png"
 home = "Trang chủ"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
 homeLayoutToggle = true
