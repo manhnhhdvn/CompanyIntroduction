@@ -4381,11 +4381,11 @@ ol {
 
 .title {
   color: #2f2f41;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 1.2; }
   @media (min-width: 992px) {
     .title {
-      font-size: 50px; } }
+      font-size: 40px; } }
 
 .content ul,
 .content ol {
@@ -4640,11 +4640,12 @@ body {
   margin-bottom: 20px; }
 
 #services-title {
-  text-align: center; }
+  text-align: center;
+  font-size: 32px; }
 
 #services-content p {
   text-align: center;
-  font-size: 20px; }
+  font-size: 16px; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #e87816;
