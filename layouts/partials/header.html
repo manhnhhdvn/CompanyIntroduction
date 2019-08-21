@@ -1,16 +1,7 @@
 <header class="navigation">
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="{{.Site.BaseURL}}">
-      <svg width="160" height="36" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
-        <g>
-         <title>Layer 1</title>
-         <g id="svg_5">
-          <text fill="#ff7f00" stroke-width="0" x="37.625" y="26.0416" id="svg_2" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" stroke="#000000" font-weight="bold">Asean</text>
-          <text fill="#007f00" stroke-width="0" x="119.625" y="26.11192" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve" stroke="#000000" font-weight="bold" id="svg_4">Digital</text>
-         </g>
-        </g>
-       </svg>
+      {{ partial "logo.html" . }}
     </a>
     <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
       aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">

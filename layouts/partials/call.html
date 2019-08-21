@@ -8,7 +8,10 @@
     </div>
     <div class="call-phone"><strong>Địa chỉ: </strong> {{ .Site.Data.contact.address }} </div>
   </div>
+  {{ if eq .RelPermalink "/contact/" }}
+  {{ else }}
   <div class="call-box-bottom">
-    <a href="{{ .Site.BaseURL }}contact" class="button">Liên hệ</a>
+      <a href="{{ .Site.BaseURL }}contact" class="button">Liên hệ</a>
   </div>
+  {{ end }}
 </div>
