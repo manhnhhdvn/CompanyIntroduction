@@ -14,8 +14,7 @@
         {{ end }}
         
         {{ if eq .RelPermalink "/" }}
-            {{ $nivo_slider_slider_js := resources.Get "nivo-slider/jQuery/jquery.nivo.slider.js" }}
-            <script type="text/javascript" src="{{ $nivo_slider_slider_js.RelPermalink }}"></script>
+            <script type="text/javascript" src="{{ .Site.BaseURL }}nivo-slider/jQuery/jquery.nivo.slider.js"></script>
             <script type="text/javascript">
             $(window).load(function() {
                 $('#slider').nivoSlider();
