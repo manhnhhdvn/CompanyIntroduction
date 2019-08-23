@@ -3,50 +3,48 @@
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-<!-- <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  
-      <div class="service service-single">
-        <h1 class="title" id="services-title">{{.Title}}</h1>
-        <div class="content" id="services-content">{{.Content}}</div>
-            <ul id="og-grid" class="og-grid">
-                <div class="row justify-content-start">
-                  {{ range $.Site.Data.services.op_hop_kim_nhom.items }}
-                  <div class="col-12 col-md-5 col-lg-3 order-1 order-md-2 position-relative">
-                    <li>
-                      <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
-                        <img src="{{.thumb}}" alt="{{.alt}}"/>
-                      </a>
-                    </li>
-                  </div>
-                  {{ end }}
-                </div>
-              </ul>
-      </div>
-  
-</div> -->
-<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/component.css" />
-<script src="{{ .Site.BaseURL }}js/modernizr.custom.js"></script>
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title" id="services-title">{{.Title}}</h1>
-        <div class="content" id="services-content">{{.Content}}</div>
-          <ul id="og-grid" class="og-grid">
-              {{ range $.Site.Data.services }}
-                {{ if eq .description $.Params.image_path }}
-                  {{ range .items }}
-                  <li>
-                    <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description}}" data-buttontext="{{.buttontext}}">
-                      <img src="{{.thumb}}" alt="{{.alt}}"/>
-                    </a>
-                  </li>
-                  {{ end }}
-                {{ end }}
+        <h1 class="title">{{.Title}}</h1>
+        <div class="row featured-post-slider">
+          {{ range $.Site.Data.services }}
+            {{ if eq .description $.Params.image_path }}
+              {{ range .items }}
+              <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+                <article class="card bg-dark text-center text-white border-0 rounded-0">
+                  <a href="{{ $.Site.BaseURL }}services"><img class="card-img rounded-0 img-fluid w-100" src="{{.image}}" alt="main-items"></a>
+                </article>
+              </div>
               {{ end }}
-          </ul>
+            {{ end }}
+          {{ end }}
+        </div>
+        <div class="content">{{.Content}}</div>
+            <!-- <ul id="og-grid" class="og-grid">
+              {{ range $.Site.Data.services.op_hop_kim_nhom.items }}
+              <li>
+                <a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}" data-buttontext="{{.buttontext}}">
+                  <img src="{{.thumb}}" alt="{{.alt}}"/>
+                </a>
+              </li>
+              {{ end }}
+            </ul> -->
       </div>
-  
+
+      <!-- <div class="row featured-post-slider">
+          {{ range $.Site.Data.services.op_hop_kim_nhom.items }}
+          <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+            <article class="card bg-dark text-center text-white border-0 rounded-0">
+              <a href="{{ .Site.BaseURL }}services"><img class="card-img rounded-0 img-fluid w-100" src="{{.image}}" alt="main-items"></a>
+            </article>
+          </div>
+          {{ end }}
+      </div> -->
+    </div>
+  </div>
 </div>
-<!-- {{ partial "scripts.html" . }} -->
 
 <!-- <div class="container">	
   <div class="main">
@@ -83,7 +81,7 @@
       </div>
     </div>
 </div> -->
-<!-- {{ partial "scripts.html" . }} -->
+{{ partial "scripts.html" . }}
 {{ end }}
 
 {{ define "footer_js" }}
