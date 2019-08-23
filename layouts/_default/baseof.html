@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
+    {{ $nivo_slider_style_default := resources.Get "nivo-slider/css/default/default.css"}}
+    <link rel="stylesheet" href="{{ $nivo_slider_style_default.Permalink }}" type="text/css" media="screen">
+    {{ $nivo_slider_style_light := resources.Get "nivo-slider/css/light/light.css"}}
+    <link rel="stylesheet" href="{{ $nivo_slider_style_light.Permalink }}" type="text/css" media="screen">
+    {{ $nivo_slider_style_dark := resources.Get "nivo-slider/css/dark/dark.css"}}
+    <link rel="stylesheet" href="{{ $nivo_slider_style_dark.Permalink }}" type="text/css" media="screen">
+    {{ $nivo_slider_style_bar := resources.Get "nivo-slider/css/bar/bar.css"}}
+    <link rel="stylesheet" href="{{ $nivo_slider_style_bar.Permalink }}" type="text/css" media="screen">
+    {{ $nivo_slider_style := resources.Get "nivo-slider/css/nivo-slider.css"}}
+    <link rel="stylesheet" href="{{ $nivo_slider_style.Permalink }}" type="text/css" media="screen">
     <body class='page {{ block "body_classes" . }}{{ end }}'>
         {{- partial "preloader.html" . -}}
         {{- partial "header.html" . -}}
@@ -11,6 +21,16 @@
         {{ $scripts := resources.Get "js/scripts.js" }}
       
         {{ block "footer_js" . }}
+        {{ end }}
+        
+        {{ if eq .RelPermalink "/" }}
+            {{ $nivo_slider_slider_js := resources.Get "nivo-slider/jQuery/jquery.nivo.slider.js" }}
+            <script type="text/javascript" src="{{ $nivo_slider_slider_js.RelPermalink }}"></script>
+            <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider();
+            });
+            </script>
         {{ end }}
     </body>
 </html>

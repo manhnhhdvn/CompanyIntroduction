@@ -67,13 +67,6 @@
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>
 {{ end }}
-{{ if .Params.isGridView }}
-{{ else }}
-{{ end }}
-
-{{ if .Params.isGridView }}
-{{ partial "scripts.html" . }}
-{{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
