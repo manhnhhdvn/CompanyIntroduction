@@ -1,7 +1,16 @@
 
     <div id="wrapper">
         <!-- <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a> -->
-
+        {{ $nivo_slider_style_default := resources.Get "nivo-slider/css/default/default.css"}}
+        <link rel="stylesheet" href="{{ $nivo_slider_style_default.Permalink }}" type="text/css" media="screen">
+        {{ $nivo_slider_style_light := resources.Get "nivo-slider/css/light/light.css"}}
+        <link rel="stylesheet" href="{{ $nivo_slider_style_light.Permalink }}" type="text/css" media="screen">
+        {{ $nivo_slider_style_dark := resources.Get "nivo-slider/css/dark/dark.css"}}
+        <link rel="stylesheet" href="{{ $nivo_slider_style_dark.Permalink }}" type="text/css" media="screen">
+        {{ $nivo_slider_style_bar := resources.Get "nivo-slider/css/bar/bar.css"}}
+        <link rel="stylesheet" href="{{ $nivo_slider_style_bar.Permalink }}" type="text/css" media="screen">
+        {{ $nivo_slider_style := resources.Get "nivo-slider/css/nivo-slider.css"}}
+        <link rel="stylesheet" href="{{ $nivo_slider_style.Permalink }}" type="text/css" media="screen">
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
                 <!-- <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
